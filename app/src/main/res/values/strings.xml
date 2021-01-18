@@ -5,4 +5,5 @@
     <string name="price">Price</string>
     <string name="store">Store</string>
     <string name="confirm">Confirm</string>
+    <string name="phone_image">Phone Image</string>
 </resources>

@@ -2,8 +2,10 @@ package com.abusabha.buyingphones.model;
 
 import androidx.annotation.DrawableRes;
 
+import java.io.Serializable;
 
-public class Phone {
+
+public class Phone implements Serializable {
     private String phoneModel;
     private String phonePrice;
     private int image;
