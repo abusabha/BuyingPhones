@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BuyingPhones</string>
+    <string name="buy">Buy</string>
+    <string name="model">Model</string>
+    <string name="price">Price</string>
+    <string name="store">Store</string>
+    <string name="confirm">Confirm</string>
+</resources>
