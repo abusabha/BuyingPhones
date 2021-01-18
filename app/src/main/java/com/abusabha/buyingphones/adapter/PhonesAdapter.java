@@ -40,7 +40,7 @@ public class PhonesAdapter extends RecyclerView.Adapter<PhonesAdapter.PhoneViewH
         holder.image.setImageResource(currentPhone.getImage());
         holder.model.setText(currentPhone.getPhoneModel());
         holder.price.setText(currentPhone.getPhonePrice());
-        holder.store.setText(currentPhone.getStore());
+        holder.store.setText(String.valueOf(currentPhone.getStore()));
 
         holder.itemView.setOnClickListener(v -> {
             Intent intent = new Intent(context, DetailActivity.class);

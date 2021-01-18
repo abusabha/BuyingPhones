@@ -32,7 +32,7 @@ public class DetailActivity extends AppCompatActivity {
 
         model.setText(phone.getPhoneModel());
         price.setText(phone.getPhonePrice());
-        store.setText(phone.getStore());
+        store.setText(String.valueOf(phone.getStore()));
         image.setImageResource(phone.getImage());
     }
 }
